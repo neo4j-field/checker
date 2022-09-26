@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="checker",
-    version="0.3.0",
+    version="0.4.0",
 
     url="https://github.com/neo4j-field/checker",
     maintainer="Dave Voutila",
