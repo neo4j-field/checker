@@ -10,8 +10,8 @@ setup(
     license="Apache License 2.0",
 
     install_requires=[
-        "pandas>=1.4.0",
-	"pyarrow>=9.0.0",
+        "pandas>=1.2.0",
+	"pyarrow>=8.0.0",
 	"graphdatascience>=1.3.0",
     ],
     packages=find_packages(),
