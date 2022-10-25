@@ -74,7 +74,7 @@ _checks = {
         "Task 2": {
             "result": {
                 "type": tuple,
-                "eval": "result == (1870, 52832)"
+                "eval": "result == (1870, 52364)"
             },
         },
         "Task 3": {
