@@ -112,7 +112,7 @@ _checks = {
         "Task 3": {
             "result": {
                 "type": dict,
-                "eval": "result == {'name': 'Exercise-04', 'node_count': 619587}",
+                "eval": "result['node_count'] == 619587",
             },
         },
         "Task 4": {
@@ -124,7 +124,7 @@ _checks = {
         "Task 5": {
             "result": {
                 "type": dict,
-                "eval": "result == {'name': 'Exercise-04', 'relationship_count': 1488949}"
+                "eval": "result['relationship_count'] == 1488949"
             },
         },
     },

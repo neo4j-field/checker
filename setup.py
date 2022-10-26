@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="checker",
-    version="0.4.1",
+    version="0.4.2",
 
     url="https://github.com/neo4j-field/checker",
     maintainer="Dave Voutila",
@@ -11,8 +11,8 @@ setup(
 
     install_requires=[
         "pandas>=1.2.0",
-	"pyarrow>=9.0.0",
-	"graphdatascience>=1.3.0",
+	    "pyarrow>=7.0.0",
+	    "graphdatascience>=1.3.0",
     ],
     packages=find_packages(),
 )
